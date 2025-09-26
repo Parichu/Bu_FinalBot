@@ -33,8 +33,16 @@ if(BUILD_TESTING)
 endif()
 
 install(
-  DIRECTORY config description launch worlds
+  DIRECTORY config description launch worlds models src
   DESTINATION share/${PROJECT_NAME}
 )
+
+install(
+  PROGRAMS
+    src/cctv_node.py
+    src/robot_nav_node.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 
 ament_package()
