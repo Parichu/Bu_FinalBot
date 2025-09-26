@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="fire_models">
+    <pose>2 0 0 0 0 0</pose>
+    <link name="fire_link">
+      <visual name="fire_visual">
+        <geometry>
+          <sphere><radius>0.3</radius></sphere>
+        </geometry>
+        <material>
+          <ambient>1 0.2 0 1</ambient>
+          <diffuse>1 0.5 0 1</diffuse>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
