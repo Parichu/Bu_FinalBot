@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="fire_world">
+    <!-- <include>
+        <uri>model://ground_plane</uri>
+    </include> -->
+<include>
+        <uri>model://sun</uri>
+</include>
+<include>
+    <uri>file:///home/parichu/Bu_final/install/bu_fire_bot/share/bu_fire_bot/models/fire_models</uri>
+ </include>
+  </world>
+</sdf>
